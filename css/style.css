@@ -604,6 +604,14 @@ a:focus {
     border-radius: 5px;
     margin-bottom: 30px;
     box-shadow: 0 0 30px rgba(0, 0, 0, .1);
+    /* border: 1px solid black; */
+    transition: .3s;
+}
+
+.text-body {
+    border: 1px solid #000000;
+    border-top: none;
+    border-radius:  0 0 5px 5px;
 }
 
 .service .service-item img {
@@ -1717,6 +1725,15 @@ a:focus {
 /*******************************/
 /********* Contact CSS *********/
 /*******************************/
+.card-links {
+    color: #00539C;
+    text-decoration: underline;
+}
+
+.card-links:hover {
+    color: #00539C;
+}
+
 .contact {
     position: relative;
     width: 100%;
